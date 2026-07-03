@@ -9,10 +9,10 @@ function PostCard({ $id, title, featuredImage }) {
             <div className="w-full bg-gray-100 rounded-2xl">
                 <div className="w-full justify-center mb-4">
                     <img src={appWriteService.getFileView(featuredImage)} alt={title}
-                        className="rounded-2xl"
+                        className="rounded-2xl w-full"
                     />
                 </div>
-                <h3 className="font-bold">{title}</h3>
+                <h3 className="text-lg font-bold leading-snug text-slate-800 line-clamp-2 p-2">{title}</h3>
             </div>
         </Link>
     )
