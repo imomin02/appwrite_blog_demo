@@ -2,9 +2,16 @@ import React from 'react'
 
 function Logo({width = '100px'}) {
   return (
-    <div>
-        logo
-    </div>
+  <div className="flex items-center justify-center p-4">
+  <div className="rounded-2xl bg-white shadow-md ring-1 ring-black/5 p-4">
+    <img
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMsAAACUCAMAAAAK/S0jAAAAgVBMVEX///9EUEWe1ctBTUJOWU9GUkjy8/I8ST25vLn29vaa08kuPS8xQDI3RTjj5OOW0sfAw8BXYVjY2djO0M5jbGTq6+qo2dDx+fd2fXfIysjR6+aZnpn4/PsnOCiipqJocWmrr6uAhoDe8OyRlpEPJxG03tYXLBnD5N4fMSAAHACIjolmOLpHAAAE1ElEQVR4nO2aa3fiKhRAjSRiHiTmaUxiXmr1+v9/4IVo3mBvpxNa1z179UNHOke2wOFAXK0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4H+Kl6fbV+2HPN/J6sv3CGOCMbZsUbsdsHZX2P6bCEyFgo6CzoaBxdqJG8rt1p+w+9BYXxVc8dvLY9OsHEup3fojAvzoKw64A6MXbXuhy+7al1HRo6/I9XjNm65d2cju2pf5zy4auMgEXH4nvcvBK/M0zcvdMKEJXLJ9nSRJvReGDb3D7uBJ1m/7qiiua5kW/UFufOiauS77axStDcNYR9GVp7PJi0DVFM0N4nJ5g57eBbW/IWx1JQvHJbs4VOOBYTjR1CY8WRizYAhhTMxS3r7UuwxB52cX5i6104o8dZwkGwbcYnMU6ugeZm8q1UVRrJPOdUnGJgznOoiX36YBCXlZhUtwoTI8l8SZqVCZSxcuNeeRkCwZoYtyLucuNU+FzrPkGS2/8SIhIuf8I3ZR2Jlm7JJxTajL+pEA/CM/EnalZOcXLuwYMHa5zhfLaMloWBDKPMl2ocdLi+A+Sav+2GUfiVyMJjNvB4uF5mM8CP2PjMw8cDGL0t74d6V7xcxX+tCFk8O6galprKD/GHBQ3WPX6mITGQPTu5jVY1IfSNeBeDNyEU4xOjA0lXlut9tqOTtSe1Ung1yZLjhoT/TtsZhOMnvokgmnGJNhu2TX8/IRSe9lVAmXH52L2W8CXTY6jlz26xcuDk3Ibcdx3Eayu6FSJKTlfo71pUbcfsA3b+TC31yeLtnq1LpY23koJGG//Gsu+97F9LtQVRsKl8u7tPcswznWpdaJy4spxlzSnx6XtM1an6998fbyXC9dqKKNPkhtElwOXQU1z8l4nJOzy4ucvKZ5rP1/Xcf1O5m+tCT6ueuBWWxf75VX8YIxrsOkhZSyiV31Nc2CLv5djXdNXXHvN+dpDaNNapj6xRRj+37cbzAE39OYDMqz5VzSG0H4HLBJ5RFFwKy2FE8y48LqsVGZTMio0FzMZdssEs1k9+H6yVL4zGt+7kmscXkcYALh57KcC3l0EKnsTixU+ZU67ywmGBgjesS1BeeXBV027XrHzRvYiCfDPSPzq0vDaO9iDpboOLTYuJzHb+Br82lm3ZvMMHlmwVdpFv6DknPeX9YFD+cYxSsmXcAf7bVW+dx/jjn9R81zMdb1IPTuzJ+xi7n4ZyaDrP6AlB/7YyDCZv94Miyez/jYK3S5GIzRoEwu+2zV4tksl5O3qmWayvCx3uYUqJw7WNq3GJkmitkI7iPHiC51HRmO0zg5zjqqV1PKAJl0m0IIE0uCy8or03xyn7jxt3mapuO7cUq2K8tdczWZGNeEDUJWJ5eIcUnmJizSLq8CFalBVVYy67GvsO9nU7ZnZMI/3YS2bYf66i6zTl6YrqzR3uTrDmK87qin+Z//9a+mL5SR+gbfdXhF2NdnUu6UFmOzVc99QXN856UfFqMHMbef7s93iEdV0a386f58A39Ux5Di9z9QF5MPXd7k22ciyuFRn3C/BvE2DOYY+XjrUaHEzxKZ4Or3f/HsE/TiSDA5kvjt67AV2ysrWvP775zABuj6288uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Of4F/d0SQTqAp+XAAAAAElFTkSuQmCC"
+      alt="logo"
+      width={width}
+      className="block h-auto max-w-full object-contain rounded-xl"
+    />
+  </div>
+</div>
   )
 }
 
